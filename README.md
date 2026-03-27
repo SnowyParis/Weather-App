@@ -101,5 +101,3 @@ Contributions, suggestions, and improvements are welcome!
 Feel free to fork this repository and submit a pull request.
 
 ---
-
-If you want, I can also tailor this README to match your exact folder structure or add badges (like GitHub stars, license, etc.).
