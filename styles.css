@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    /* box-sizing: border-box; */
 }
 
 body {
@@ -12,7 +11,8 @@ body {
 .main-container {
     width: 90%;
     max-width: 400px;
-    background: linear-gradient(135deg, #212121, #BDBDBD );
+    /* background: linear-gradient(135deg, #212121, #BDBDBD ); */
+    background: linear-gradient(135deg, rgb(10, 49, 10), rgb(145, 240, 145) );
     color: #fff;
     margin: 100px auto;
     border: 2px solid #424242;
@@ -63,6 +63,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 25px;
+    display: none;
 }
 
 .location-date-container {
@@ -113,6 +114,7 @@ body {
 }
 
 .weather-summary-info {
+    padding-top: 3rem;
     text-align: end;
 }
 
@@ -123,6 +125,7 @@ body {
 
 .weather-conditions-container {
     margin-top: 19px;
+    padding-top: 2rem;
     display: flex;
     justify-content: space-between;
 }
@@ -147,4 +150,27 @@ body {
 .condition-info .wind-speed-value {
     font-weight: 600;
     margin-top: 0px;
+}
+
+/* Prompt message */
+.section-prompt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 3rem;
+    margin-top: 5%;
+}
+
+.section-prompt img {
+    height: 180px;
+    width: fit-content;
+}
+
+.search-city {
+    display: block;
+}
+
+.not-found {
+    display: none;
 }

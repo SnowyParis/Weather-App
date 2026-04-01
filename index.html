@@ -8,12 +8,9 @@
         <link rel="stylesheet" href="styles.css">
         <title>Weather App</title>
 
-        <script src="script.js"></script>
-
     </head>
 
     <body>
-        
         <div class="main-container">
             <header class="input-container">
                 <input class="city-input" type="text" placeholder="Enter a city name" spellcheck="false" />
@@ -25,14 +22,13 @@
                     <div class="location">
                         <i class="fas fa-location-dot"></i>
                     
-                        <h4 class="city-name">Durban</h4>
+                        <h4 class="city-name">New York</h4>
                     </div>
 
                     <h5 class="current-date text">Thu, 09 May</h5>
                 </div>
 
                 <div class="weather-summary-container">
-                    <!-- <img src="images/HappyColor_51570.png" class="weather-summary-img" /> -->
                     <div class="weather-icon">
                         <i class="fa-solid fa-cloud-sun"></i>
                     </div>
@@ -63,7 +59,28 @@
                     </div>
                 </div>
             </section>
+
+            <!-- Search prompt -->
+            <section class="search-city section-prompt">
+                <img src="images/search-city.png" alt="Prompt search image" >
+
+                <div>
+                    <h1>Search city</h1>
+                    <h4 class="text">Search the weather conditions of your city.</h4>
+                </div>
+            </section>
+
+            <!-- Error handling -->
+            <section class="not-found section-prompt">
+                <img src="images/not-found.png" alt="404 page not found image" >
+
+                <div>
+                    <h1>Search another city</h1>
+                    <h4 class="text">City name not found.</h4>
+                </div>
+            </section>
         </div>
 
+        <script src="script.js"></script>
     </body>
 </html>
